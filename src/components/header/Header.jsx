@@ -19,7 +19,7 @@ const Header = () => {
             id="search"
           />
           <img
-            className=" search_icon"
+            className="  search_icon"
             src="../../../public/header/Magnify.svg"
             alt="search_icon"
           />
