@@ -1,0 +1,36 @@
+.testimonials {
+  background-color: #f7fdff;
+  padding: 100px;
+
+  .testimonial {
+    border: 1px solid #ced4da;
+    padding: 25px;
+    background-color: #fff;
+
+    &__add {
+      column-gap: 25px;
+      margin-bottom: 18px;
+    }
+
+    &__icon {
+    }
+
+    &__heading {
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    &__paragraph {
+    }
+
+    &__button {
+      background-color: #fff;
+      border: 2px solid #8064a2;
+      border-radius: 7px;
+      width: 122px;
+      height: 40px;
+      font-weight: 500;
+      color: #8064a2;
+    }
+  }
+}
