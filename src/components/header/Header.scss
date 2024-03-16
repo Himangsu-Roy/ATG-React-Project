@@ -1,0 +1,83 @@
+.header {
+  height: 80px;
+  .logo {
+    width: 293px;
+    height: 60px;
+  }
+
+  .search {
+    display: flex;
+    align-items: center;
+
+    &_input {
+      width: 300px;
+      height: 40px;
+      border: 1px solid #ebedf0;
+      background-color: #f8f9fa;
+      padding-left: 0.8rem;
+      border-radius: 10px 0px 0px 10px;
+    }
+
+    &_icon {
+      width: 40px;
+      height: 40px;
+      padding: 12px;
+      border-radius: 0px 10px 10px 0px;
+    }
+  }
+
+  .left_header {
+    margin-left: 25px;
+
+    .search_icon {
+      background-color: #8064a2;
+    }
+  }
+
+  .right_header {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 23px;
+
+    .explore {
+      display: flex;
+      column-gap: 8px;
+      color: #8064a2;
+      cursor: pointer;
+    }
+
+    .hobbies {
+      display: flex;
+      column-gap: 4px;
+      color: #8064a2;
+      cursor: pointer;
+    }
+
+    .icons {
+      display: flex;
+      column-gap: 23px;
+      &__bookmark {
+        cursor: pointer;
+      }
+      &__notification {
+        cursor: pointer;
+      }
+      &__cart {
+        cursor: pointer;
+        margin-left: -4px;
+      }
+    }
+
+    .signin_button {
+      background-color: #fff;
+      border: 2px solid #8064a2;
+      border-radius: 5px;
+      width: 112px;
+      height: 40px;
+      color: #8064a2;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+}
