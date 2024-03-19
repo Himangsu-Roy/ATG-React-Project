@@ -34,3 +34,132 @@
     }
   }
 }
+
+// Testimonials
+.testimonial__audio {
+  background-color: #fff;
+  padding: 100px;
+
+  .testimonial {
+    padding: 25px;
+    background-color: #f7f5f9;
+    border-radius: 8px;
+
+    &__add {
+      column-gap: 25px;
+      margin-bottom: 18px;
+    }
+
+    &__icon {
+    }
+
+    &__heading {
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    &__paragraph {
+      color: #6d747a;
+      font-weight: 350;
+      line-height: 1.8;
+    }
+
+    &__button {
+      background-color: #fff;
+      border: 2px solid #8064a2;
+      border-radius: 7px;
+      width: 122px;
+      height: 40px;
+      font-weight: 500;
+      color: #8064a2;
+    }
+  }
+}
+
+// Audio
+// .audio {
+//   width: 776px;
+//   height: 100px;
+// }
+.audio-player {
+  position: relative;
+  min-width: 600px;
+  height: 100px;
+  background-color: #ccc1da;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 6px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+
+  .audio__button {
+    border-radius: 100%;
+  }
+
+  .range__counter {
+    color: #8064a2;
+  }
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+}
+
+.seek-bar {
+  min-width: 350px;
+  height: 2px;
+  margin: 0 10px;
+  // background-color: #ccc;
+  background-color: #fff;
+  border: none;
+  border-radius: 500px;
+  appearance: none; /* Remove default appearance */
+}
+
+.seek-bar::-webkit-slider-thumb {
+  appearance: none; /* Remove default appearance */
+  width: 10px; /* Adjust thumb width */
+  height: 10px; /* Adjust thumb height */
+  background-color: #8064a2; /* Thumb color */
+  border-radius: 50%; /* Make thumb circular */
+  cursor: pointer;
+}
+
+.audio-image {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+// Testimonial Frame
+.testimonial_frame {
+  width: 100px;
+  height: 100px;
+}
+
+.testimonial_frame__details {
+  h6 {
+    color: #8064a2;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  small {
+    color: #0096c8;
+    font-weight: 450;
+    letter-spacing: 0.5px;
+  }
+}

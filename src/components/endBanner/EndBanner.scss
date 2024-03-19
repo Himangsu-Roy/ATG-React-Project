@@ -1,0 +1,24 @@
+.end__banner {
+  background-color: #f7fdff;
+  padding: 80px 15px 30px 80px;
+
+  .hobby {
+    color: #8064a2;
+  }
+  .community {
+    color: #0096c8;
+  }
+
+  .get__started {
+    background-color: #8064a2;
+  }
+
+  .go__top {
+    color: #725990;
+  }
+
+  &__img {
+    margin-top: 70px;
+    padding-right: 70px;
+  }
+}

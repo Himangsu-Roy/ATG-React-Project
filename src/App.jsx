@@ -1,4 +1,5 @@
 import "./App.scss";
+import EndBanner from "./components/endBanner/EndBanner";
 import Feature from "./components/feature/Feature";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Feature />
       <Testimonial />
+      <EndBanner/>
     </>
   );
 }
